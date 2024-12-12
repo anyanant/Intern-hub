@@ -1,34 +1,104 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expenses Tracker</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="expenses-tracker">
-        <h1>Expenses Tracker</h1>
-        <form id="expenses-form">
-            <label for="date">Date:</label>
-            <input type="date" id="date" required>
-            <label for="category">Category:</label>
-            <select id="category" required>
-                <option value="">Select a category</option>
-                <option value="food">Food</option>
-                <option value="study">study</option>
-                <option value="entertainment">Entertainment</option>
-                <option value="other">Other</option>
-            </select>
-            <label for="amount">Amount:</label>
-            <input type="number" id="amount" required>
-            <button id="expenses-form">Add Expense</button>
-        </form>
-        <div id="expenses-list"></div>
-        <div id="total-expenses"></div>
-    </div>
+    <header>
+        <nav> 
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png.jpg" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#about">Services</a></li>
+                <li><a href="#projects">Theme</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Apni Zhalak!</h1>
+    </section>
+    <section id="about">
+        <h1>About me</h1> 
+        <div class="about-content">
+        <div class="about-image">
+            <img src="about.jpg">
 
+            <img src="about1.jpg">
+            </div>
+            <div class="About-text"
+        <p>This is poetry platform where you get stage to perform your own poetry.Poetry is a literary art form that uses language to express emotions, ideas, and experiences in a condensed, imaginative, and often rhythmic way. It is characterized by its attention to sound, rhythm, and imagery, creating layers of meaning that can resonate deeply with readers.
+
+            Key Elements of Poetry:
+            
+            1. Imagery: Descriptive language that appeals to the senses, painting vivid pictures in the reader's mind.
+            
+            
+            2. Emotion: A central aspect of poetry, capturing feelings such as love, sorrow, joy, or anger.
+            
+            
+            3. Rhythm and Meter: The pattern of stressed and unstressed syllables, contributing to the musicality of a poem.
+            
+            
+            4. Rhyme and Sound: The repetition of similar sounds at the ends of lines (rhyme) or within the poem (alliteration, assonance).
+            
+            
+            5. Symbolism: Using symbols to represent deeper meanings beyond the literal.
+            
+            
+            6. Theme: The underlying message or central idea.
+            
+            
+            7. Form and Structure: Includes traditional forms like sonnets, haikus, or free verse, which has no set pattern.
+            </p>
+            <div class="tab tittle">
+                <p class="tab-links active tab-links" onclick="opentab(skills)">skills</p>
+                <p class="tab-link"onclick="opentab(experiences)">experiences</p>
+                <p class="tab-limks"onclick="opentab(education)">education</p>
+    </section>
+    <section id="projects">
+        <h1>Apni Zhalak theme</h1>
+        <div class="project-grid">
+            <div class="project">
+                <h2>Theme 1</h2>
+                <p>WE PROVIDE PLATFORM TO OUR AUDIENCE TO SHOW THEIR TALENT.</p>
+            </div>
+            <div class="project">
+                <h2>Theme 2</h2>
+                <p>WE TRY TO CONDUCT POETRY COMPETION AMONG THE GROUP.</p>
+            </div>
+            <div class="project">
+                <h2>Theme 3</h2>
+                <p>WE PROVIDE STAGE  TO PERFORMER FOR OPEN MIC.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>fill this our team contact with you within 24 hours</h1>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button>Send</button>
+        </form>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
